@@ -1,9 +1,9 @@
 <?php
- include("config.php");
+ include("./config.php");
   $sql = " SELECT * FROM post ";
-  $result = mysqli_query($conn, $sql);
+  $result = mysqli_query($con, $sql);
     
-  mysqli_close($conn)
+  mysqli_close($con)
 ?>
 <!DOCTYPE html>
 <html lang="en">

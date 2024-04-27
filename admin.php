@@ -1,8 +1,8 @@
 <?php
 include("./config.php");
 $sql = "SELECT * FROM post";
-$result = mysqli_query($conn, $sql);
-mysqli_close($conn);
+$result = mysqli_query($con, $sql);
+mysqli_close($con);
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +20,10 @@ mysqli_close($conn);
     <div class="container-fluid p-0">
         <nav class="bg-black d-flex justify-content-between p-2">
          <h3 class="text-white fs-3 fw-bold">Admin</h3>
-         <button class="btn px-3 bg-white shadow ">Upload</button>
+         <div class="me-2">
+         <a class="btn px-3 bg-white shadow " href="./index.php">Home</a>
+         <a class="btn px-3 bg-white shadow " href="./upload.php">Upload</a>
+         </div>
         </nav>
         <table class="table ">
             <thead>

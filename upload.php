@@ -38,7 +38,8 @@ $author = $title = $description = $body = $catch = $image = $img_tmp = "";
 </head>
 
 <body>
-    <div class="container-fluid pt-5">
+    <div class="container-fluid p-0">
+    <?php require "./navbar.php"; ?>
         <form class="shadow rounded px-4 py-3 mx-auto" style="max-width: 35rem;" method="post" enctype="multipart/form-data" >
           <p class="fs-5 fw-bold mt-2 text-center">Input the field below to upload your content</p>
           <div class="row">

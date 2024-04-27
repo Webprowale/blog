@@ -6,7 +6,7 @@ $db_name = "blog";
 $conn = "";
   
 try{
-   $conn = mysqli_connect($db_server,$db_user,$db_password,$db_name);
+   $con = mysqli_connect($db_server,$db_user,$db_password,$db_name);
 }
 catch(mysqli_sql_exception){
     echo " Could not connection database";

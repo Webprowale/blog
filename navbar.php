@@ -13,7 +13,7 @@
           <a class="nav-link fw-semibold mx-2 text-white" href="./admin.php">Admin</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-semibold mx-2 text-white" href="./admin.php">Login</a>
+          <a class="nav-link fw-semibold mx-2 text-white" href="./login.php">Login</a>
         </li>
         <li class="nav-item">
           <a class="nav-link fw-semibold mx-2 text-white" href="./register.php">Register</a>
